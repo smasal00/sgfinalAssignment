@@ -22,7 +22,7 @@ class Signup extends React.Component {
       if (user) {
         this.props.history.push("/home");
       } else {
-        this.props.history.push("/register");
+        //this.props.history.push("/register");
       }
     });
   }
