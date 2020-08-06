@@ -20,7 +20,7 @@ class Home extends React.Component {
       if (user) {
         this.props.history.push("/home");
       } else {
-        this.props.history.push("/");
+        //this.props.history.push("/");
       }
     });
 
